@@ -1,0 +1,6 @@
+[build]
+  command = "python web/build.py"
+  publish = "web/public"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"

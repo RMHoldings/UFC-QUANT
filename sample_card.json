@@ -1,0 +1,43 @@
+{
+  "event": {
+    "name": "DEMO \u2014 synthetic event (not official)",
+    "date": "N/D",
+    "location": "N/D",
+    "source_status": "DEMO"
+  },
+  "fights": [
+    {
+      "fighter_a": "Fighter A (synthetic)",
+      "fighter_b": "Fighter B (synthetic)",
+      "division": "N/D",
+      "rounds": 3,
+      "data_quality": "synthetic demo",
+      "features_a": {
+        "striking": 0.4,
+        "grappling": 0.2,
+        "recent_form": 0.3,
+        "durability": 0.1,
+        "physical": 0.2,
+        "cardio": 0.1,
+        "opponent_quality": 0.0,
+        "context": 0.0
+      },
+      "features_b": {
+        "striking": 0.0,
+        "grappling": 0.1,
+        "recent_form": 0.0,
+        "durability": 0.0,
+        "physical": 0.0,
+        "cardio": 0.0,
+        "opponent_quality": 0.0,
+        "context": 0.0
+      },
+      "finish_rates": {
+        "a_ko": 0.22,
+        "a_sub": 0.08,
+        "b_ko": 0.15,
+        "b_sub": 0.05
+      }
+    }
+  ]
+}

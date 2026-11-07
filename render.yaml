@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ufcquant-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn ufc_quant.api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: CORS_ORIGINS
+        value: https://YOUR-UFCQUANT-SITE.netlify.app
